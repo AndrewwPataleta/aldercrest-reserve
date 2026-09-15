@@ -1,0 +1,14 @@
+{
+  "name": "aldercrest-reserve",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aldercrest Reserve - precious metals storefront (live spot pricing MVP)",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
